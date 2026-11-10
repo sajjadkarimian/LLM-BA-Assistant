@@ -1,0 +1,20 @@
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Tests
+.pytest_cache/
+.coverage
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Generated AI analysis
+outputs/*.json
+
+# macOS
+.DS_Store
